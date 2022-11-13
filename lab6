@@ -1,49 +1,31 @@
+while True:
+    element = input ("Enter an element: ")
+    if element =='-1':
+        break
+    else:
+        lst.append (element)
+print (lst)
+strings = ['string1', 'string2', 'string3',
+'string4','string5','string6']
+for string in strings:
+    if string[0] == 'A' or string [0] == 'a':
+        print (string)
+        break
+else:
+    print('the element does not exist')
+def convert_string(s):
+    return '$'.join(s.split ())
+print(convert_string('this is the input string'))
+def check_element (lst, element) :
+    return element in lst
+import random
+Ist = [random. randint (0, 1) for i in range(100)]
+print(lst)
+def sum_elements(Ist):
+    return sum(lst)
+print(sum_elements([1, 2, 3, 4, 5]))
+
 a=[]
 for i in range (3):
     a.append([x*0 for x in range(5)])
 print(a)
-def dollarfunction(astring):
-    alist=astring.split()
-    blist=[]
-    for i in alist:
-        blist.append('$'+i)
-    return' '.join(blist) 
-print(dollarfunction('this is the input'))
-a=list
-for i in range(100):
-    alist.append(random.randrange(0,1))
-print(a)    
-
-while True:
-element = input ("Enter an element: ")
-if element ==
-1-1'
-break else:
-lst. append (element)
-print (lst)
-2.
-strings = ['string1', 'string2', 'string3',
-'string4t,
-for string in strings:
-if string[0] == 'A' or string [0] == 'a'
-print (string)
-break
-*string5', 'string6"]
-else:
-print('the element does not exist!)
-
-def convert_string(s):
-return '$'_join(s.split ())
-print(convert_string('this is the input string'))
-4.
-def check_element (lst, element) :
-return element in lst
-5.
-import random
-Ist = [random. randint (0, 1) for i in range(100)]
-print(lst)
-6.
-def sum_elements(Ist):
-return sum(lst)
-print(sum_elements([1, 2, 3, 4, 51))
-
